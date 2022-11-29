@@ -1,0 +1,28 @@
+Instructions / Context
+
+1. Upon cloning the repository, navigate into the local folder and execute the following commands
+  a. npm install
+  b. npm run start
+2. Initially, you should receive an authorization error. This is because you will need to update 
+   the authorization parameter with your API key (line 24 of fox-api-examples.js)
+3. Once you've added this, execute 'npm run start' to see the default query in your console
+
+
+Trying Different Queries
+
+1. Open 'fox-api-examples.js' in any text editor
+2. Scroll down to line 193, where you will see four comment blocks, each corresponding to
+   a different function/query
+3. By default, the query '_Query_iOS_Android_90_days()' is uncommented, on line 199
+4. To run any of the other 3 queries, you can comment-out line 199, and uncomment the one you'd like
+   to use instead
+5. Once again, execute 'npm run start' in the console, and observe the results of your selected query
+
+
+Overall, the queries provided are meant to demonstrate the available options and flexibility granted
+through the API. Hopefully these samples can provide enough context to start building ideas about
+the queries you'd like to run. It may be helpful to edit the queries within fox-api-examples.js, so 
+you can experiment with different combinations in the Node client. If you have any questions about this,
+please let me know and I'll be happy to help. 
+
+- Brad
